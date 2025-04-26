@@ -1,0 +1,10 @@
+
+
+services:
+  git-shell:
+    build: .
+    container_name: util_dev-shell
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
