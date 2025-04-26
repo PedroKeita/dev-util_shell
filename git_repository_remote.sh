@@ -72,7 +72,8 @@ while true; do
 		git_remote
 		;;	
 	6)
-		visualizar_permissao_arquivos
+		echo "Saindo"
+		exit 0
 		;;
 	*) 
 		echo "Opção invalida"
